@@ -1,13 +1,75 @@
 .home_card1{
-	background-color: #E0DCD5;
-	.uk-card-body{
-		.uk-card-title{
-			a{
-				color: #000;
-			}
-		}
-		p{
-			
-		}
-	}
+  background-color: #E0DCD5;
+  .uk-card-body{
+    text-align: center;
+    padding: 20px;
+    .uk-card-title{
+      font-family:'tt0142m_';
+      font-size: 30px;
+      a{
+        color: #000;
+      }
+    }
+
+    p{
+      font-family:'FUTURAL_0';
+      color: #000;
+      font-size: 16px;
+    }
+  }
+}
+.home_header{
+  padding: 5px 10px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  span{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family:'tt0142m_';
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+  }
+}
+.home_block1{
+  background-color: #F2F3F4;
+}
+.home_title1{
+  font-family:'tt0142m_';
+  font-size: 30px;
+  a{
+    color: #000;
+  }
+}
+.home_desc1{
+  font-family:'FUTURAL_0';
+  color: #000;
+  font-size: 16px;
+}
+.banner{
+  img{
+    width: 100%;
+  }
+}
+.title_list1{
+  font-family:'tt0142m_';
+  font-size: 20px;
+  a{
+    color: #000;
+  }
+}
+.item_home{
+  &:nth-child(n+2){
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #7f7f7f;
+  }
+}
+.btn_readmore{
+  border-radius: 14px;
+  text-transform: inherit;
+  border-color: #7f7f7f;
+  font-family:'FUTURAL_0';
+  font-size: 15px;
 }
