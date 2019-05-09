@@ -1,7 +1,142 @@
 <?php $title = 'Trang chủ'; ?>
 <?php include 'header.php'; ?>
-<div class="uk-container">
-    
+<div class="uk-section-xsmall block_media">
+    <div class="uk-container">
+        
+    </div>
+</div>
+<div class="uk-container uk-section-small">
+    <div class="uk-grid-medium" uk-grid>
+        <div class="uk-width-expand">
+            <div class="home_header uk-margin" style="background-color: #c1272d">
+                <img src="imgs/home_icon_tintuc.png" alt="">
+                <span class="uk-text-middle uk-margin-small-left">tin tức</span>
+            </div>
+            <div class="uk-grid-divider uk-grid-small uk-child-width-1-3@m" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="uk-child-width-1-3@m uk-grid-small" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-cover-container">
+                                <img src="imgs/tintuc3.jpg" alt="" uk-cover>
+                                <canvas width="284" height="240"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-flex-first@m">
+                            <h2 class="home_title1 uk-margin-remove"><a href="#">Bí mật từ ánh nhìn của chú</a></h2>
+                            <p class="home_desc1 uk-margin-remove">Bruce Linton, chief executive of the Ontario-based company, Canopy Growth Corporation</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-cover-container">
+                        <img src="imgs/tintuc4.jpg" alt="" uk-cover>
+                        <canvas width="211" height="128"></canvas>
+                    </div>
+                    <h3 class="title_list1 uk-margin-small uk-margin-remove-bottom"><a href="#">Điều thú vị giữa mèo và chó</a></h3>
+                    <p class="home_desc1 uk-margin-remove">Bruce Linton, chief executive of the Ontario-based company, Canopy</p>
+                </div>
+            </div>
+            <hr>
+            <div class="uk-grid-divider uk-margin-large-bottom uk-grid-small uk-child-width-1-3@m" uk-grid>
+                <div>
+                    <div class="uk-cover-container">
+                        <img src="imgs/tintuc1.jpg" alt="" uk-cover>
+                        <canvas width="212" height="134"></canvas>
+                    </div>
+                    <h3 class="title_list1 uk-margin-small"><a href="#">Bí mật ánh nhìn của</a></h3>
+                </div>
+                <div>
+                    <h3 class="title_list1 uk-margin-remove"><a href="#">Não bộ của chó và người có điểm gì tương đồng</a></h3>
+                    <p class="home_desc1 uk-margin-remove">Bruce Linton, chief executive of the Ontario-based company, Canopy Growth Corporation, said Ms.</p>
+                </div>
+                <div>
+                    <div class="uk-cover-container">
+                        <img src="imgs/tintuc2.jpg" alt="" uk-cover>
+                        <canvas width="212" height="134"></canvas>
+                    </div>
+                    <h3 class="title_list1 uk-margin-small"><a href="#">Bí mật ánh nhìn của</a></h3>
+                </div>
+            </div>
+            <div class="uk-text-center">
+                <a href="#" class="uk-button uk-button-default btn_readmore">xem thêm</a>
+            </div>
+            <div class="home_header uk-margin" style="background-color: #00a99d">
+                <img src="imgs/home_icon_baovedongvat.png" alt="">
+                <span class="uk-text-middle uk-margin-small-left">bảo vệ động vật</span>
+            </div>
+            <div class="uk-grid-medium uk-child-width-1-3@m" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="uk-card home_card1">
+                        <div class="uk-cover-container">
+                            <img src="imgs/bvdv5.jpg" alt="" uk-cover>
+                            <canvas width="450" height="295"></canvas>
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title"><a href="#" title="">Hành động của cún cưng nói lên điều gì?</a></h3>
+                            <p>Bruce Linton, chief executive of the Ontario-based company, Canopy Growth Corporation, said Ms. Stewart would have an advisory role and assist with the development and brand positioning of a new line of offerings for humans and</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-margin">
+                        <div class="uk-cover-container">
+                            <img src="imgs/bvdv6.jpg" alt="" uk-cover>
+                            <canvas width="209" height="210"></canvas>
+                        </div>
+                        <h3 class="title_list1 uk-margin-small"><a href="#">Bí mật từ ánh nhìn của</a></h3>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-cover-container">
+                            <img src="imgs/bvdv7.jpg" alt="" uk-cover>
+                            <canvas width="209" height="210"></canvas>
+                        </div>
+                        <h3 class="title_list1 uk-margin-small"><a href="#">Bí mật từ ánh nhìn của</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-1-4@m uk-flex-first@m">
+            <?php
+            $cars = array
+            (
+                'imgs/banner2.jpg',
+                'imgs/banner3.jpg',
+                'imgs/banner2.jpg',
+            );
+            foreach ($cars as $k => $v) { ?>
+                <div class="uk-margin">
+                    <a href="#">
+                        <div class="uk-cover-container">
+                            <img src="<?= $v ?>" alt="" uk-cover>
+                            <canvas width="210" height="387"></canvas>
+                        </div>
+                    </a>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+    <div class="uk-margin-large-bottom uk-grid-medium uk-child-width-1-4@m" uk-grid>
+        <?php
+        $cars = array
+        (
+            'imgs/bvdv1.jpg',
+            'imgs/bvdv2.jpg',
+            'imgs/bvdv3.jpg',
+            'imgs/bvdv4.jpg',
+        );
+        foreach ($cars as $k => $v) { ?>
+            <div>
+                <div class="uk-cover-container">
+                    <img src="<?= $v ?>" alt="" uk-cover>
+                    <canvas width="212" height="187"></canvas>
+                </div>
+                <h3 class="title_list1 uk-margin-small"><a href="#">Bí mật từ ánh nhìn của</a></h3>
+            </div>
+        <?php } ?>
+    </div>
+    <div class="uk-text-center">
+        <a href="#" class="uk-button uk-button-default btn_readmore">xem thêm</a>
+    </div>
     <div class="home_header uk-margin" style="background-color: #F15A24">
         <img src="imgs/home_icon_khoanhkhac.png" alt="">
         <span class="uk-text-middle uk-margin-small-left">khoảnh khắc</span>
