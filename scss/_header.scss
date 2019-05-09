@@ -1,0 +1,61 @@
+.logo1{
+  width: 150px;
+}
+.btn2-timkiem{
+  background-color: transparent;
+  border: none;
+  img{
+    width: 20px;
+  }
+}
+.form1_txt{
+  border-radius: 6px;
+  font-family: 'FUTURAL_0';
+}
+.time2{
+  font-family: 'FUTURAL_0';
+  font-size: 13px;
+}
+#nav1{
+  background-color: #027070;
+  .uk-navbar-nav{
+    >li{
+      >a{
+        color: #ffffff;
+        min-height: 60px;
+        font-family: 'tt0142m_';
+        &:hover{
+          color: #fdee20;
+        }
+      }
+    }
+  }
+  .uk-navbar-dropdown-nav{
+    >li{
+      &.uk-active{
+        >a{
+
+        }
+      }
+      >a{
+        font-family: 'tt0142m_';
+        padding: 10px 15px;
+        background-color: #F2F3F4;
+        color: #000;
+      }
+      &:nth-child(n+2){
+        >a{
+          border-top: 1px solid #ffffff;
+        }
+      }
+    }
+  }
+}
+.title3{
+  font-family: 'tt0142m_';
+  font-size: 14px;
+  a{
+    color: #000;
+
+  }
+}
