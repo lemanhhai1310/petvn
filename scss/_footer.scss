@@ -1,0 +1,67 @@
+#footer{
+  background-color: #027070;
+  border-top: 3px solid #fdee20;
+}
+.nav1{
+  border-bottom: 1px solid #e0dcd4;
+  .uk-logo{
+    padding-left: 0;
+  }
+  .uk-navbar-nav{
+    li{
+      a{
+        color: #e0dcd4;
+        font-family: 'FUTURAL_0';
+        font-size: 14px;
+      }
+      &:last-child{
+        a{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+.title2{
+  color: #ffffff;
+  font-size: 16px;
+}
+.btn-qc{
+  background-color: #fdee20;
+  border-color: #fdee20;
+  border-radius: 20px;
+  color: #000;
+  font-size: 14px;
+  font-family: 'tt0142m_';
+}
+.item3{
+  font-size: 14px;
+  position: relative;
+  padding-left: 10px;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #fdee20;
+  }
+  h4{
+    font-family: 'FUTURAL_0';
+    color: #ffffff;
+    font-size: 14px;
+  }
+  div{
+    color: #000;
+    font-family: 'tt0142m_';
+  }
+}
+.txt1{
+  color: #ffffff !important;
+  font-family: 'tt0142m_';
+}
+.txt2{
+  font-family: 'tt0142m_';
+  color: #fdee20;
+}
