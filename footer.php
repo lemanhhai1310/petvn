@@ -62,7 +62,7 @@
             <?php } ?>
         </div>
         <hr class="uk-margin-medium">
-        <div class="uk-margin uk-grid-medium uk-child-width-1-4@m uk-flex-middle uk-flex-center" uk-grid>
+        <div class="uk-margin uk-grid-medium uk-child-width-1-4@m uk-flex-middle" uk-grid>
             <div>
                 <img src="imgs/marker-01-01.png" alt="">
                 <span class="uk-text-middle txt1">Tòa soạn</span>
