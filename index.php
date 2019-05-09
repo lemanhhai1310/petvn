@@ -1,8 +1,146 @@
 <?php $title = 'Trang chủ'; ?>
 <?php include 'header.php'; ?>
+<div class="uk-container uk-margin-large-bottom">
+    <div class="uk-grid-medium" uk-grid>
+        <div class="uk-width-expand">
+            <div class="uk-grid-small" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="uk-cover-container">
+                        <img src="imgs/home1.jpg" alt="" uk-cover>
+                        <canvas width="443" height="322"></canvas>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m uk-flex-first@m">
+                    <h2 class="home_title1"><a href="#">Hành động của cún cưng nói lên điều gì</a></h2>
+                    <p class="home_desc1">Bruce Linton, chief executive of the Ontario-based company, Canopy Growth Corporation, said Ms. Stewart would have an advisory role and assist with the development and brand positioning of a new line of offerings for humans and</p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-1-4@m">
+            <?php for ($i=1; $i<=4; $i++) { ?>
+                <div class="item2">
+                    <h3 class="title_list1 uk-margin-remove uk-text-truncate"><a href="#">Điều gì thú vị giữa</a></h3>
+                    <p class="home_desc1 uk-margin-remove uk-text-truncate">Bruce Linton, chief executive of</p>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+    <hr class="line1">
+    <div class="uk-grid-medium uk-child-width-1-4@m" uk-grid>
+        <div class="uk-width-expand">
+            <?php
+            $cars = array
+            (
+                'imgs/news1.jpg',
+                'imgs/news2.png',
+                'imgs/news3.jpg',
+                'imgs/news4.jpg',
+                'imgs/news1.jpg',
+                'imgs/news2.png',
+                'imgs/news3.jpg',
+                'imgs/news4.jpg',
+                'imgs/news5.jpg',
+            );
+            foreach ($cars as $k => $v) { ?>
+                <div class="item1">
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-auto@s">
+                            <div class="uk-cover-container">
+                                <img src="<?= $v ?>" alt="" uk-cover>
+                                <canvas width="242" height="143"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <h3 class="title_list1 uk-margin-remove"><a href="#">Bí mật từ ánh nhìn của chú cún</a></h3>
+                            <p class="home_desc1 uk-margin-remove">Bruce Linton, chief executive of the Ontario-based company Canopy Growth Bruce Linton, chief executive of the Ontario-based company Canopy Growth</p>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+            <div class="uk-text-center uk-margin">
+                <a href="#" class="uk-button uk-button-default btn_readmore">xem thêm</a>
+            </div>
+        </div>
+        <div>
+            <?php
+            $cars = array
+            (
+                'imgs/banner2.jpg',
+                'imgs/banner4.jpg',
+                'imgs/banner2.jpg',
+                'imgs/banner4.jpg',
+            );
+            foreach ($cars as $k => $v) { ?>
+                <div class="uk-margin">
+                    <a href="#">
+                        <div class="uk-cover-container">
+                            <img src="<?= $v ?>" alt="" uk-cover>
+                            <canvas width="210" height="387"></canvas>
+                        </div>
+                    </a>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
 <div class="uk-section-xsmall block_media">
     <div class="uk-container">
-        
+        <div class="uk-position-relative">
+            <div class="box1">
+                <img src="imgs/vector-dog-and-cat-01.png" alt="">
+                <span class="uk-text-middle uk-margin-small-left">multimedia</span>
+            </div>
+            <div class="uk-position-center box2">
+                <ul class="uk-margin-remove tab1 uk-flex-center" uk-tab="connect: #tab1">
+                    <li class="uk-active"><a href="">television</a></li>
+                    <li><a href="">e-magazine</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="tab1" class="uk-switcher uk-margin">
+            <div>
+                <div class="uk-grid-medium uk-child-width-1-4@m" uk-grid>
+                    <div class="uk-width-3-4@m">
+                        <div class="uk-cover-container">
+                            <img src="imgs/media1.jpg" alt="" uk-cover>
+                            <canvas width="677" height="402"></canvas>
+                            <a class="uk-position-center" href="#"><img src="imgs/btn-play-yt.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-cover-container">
+                            <img src="imgs/bvdv6.jpg" alt="" uk-cover>
+                            <canvas width="209" height="210"></canvas>
+                        </div>
+                        <h3 class="title1 uk-margin-small uk-margin-remove-bottom"><a href="#">Bí mật từ ánh nhìn của</a></h3>
+                        <small class="time1">20/05/2019</small>
+                        <p class="desc1 uk-margin-small">Bruce Linton, chief executive of the Ontario-based company, Canopy Growth Corporation</p>
+                    </div>
+                    <?php
+                    $cars = array
+                    (
+                        'imgs/kd5.jpg',
+                        'imgs/tintuc3.jpg',
+                        'imgs/kd4.jpg',
+                        'imgs/media2.jpg',
+                    );
+                    foreach ($cars as $k => $v) { ?>
+                        <div>
+                            <div class="uk-cover-container">
+                                <img src="<?= $v ?>" alt="" uk-cover>
+                                <canvas width="212" height="229"></canvas>
+                                <a href="#" class="uk-position-center btn1"><img src="imgs/btn-play-yt.png" alt=""></a>
+                                <div class="uk-position-bottom uk-padding-small uk-overlay uk-overlay-primary">
+                                    <h3 class="title1 uk-margin-small uk-margin-remove-bottom uk-text-truncate"><a href="#">Bí mật từ ánh nhìn của</a></h3>
+                                    <small class="time1">20/05/2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+            <div>Hello again!</div>
+        </div>
     </div>
 </div>
 <div class="uk-container uk-section-small">
