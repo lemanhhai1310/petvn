@@ -1,12 +1,43 @@
 <?php $title = 'Trang chủ'; ?>
 <?php include 'header.php'; ?>
 <div class="uk-container">
+    
     <div class="home_header uk-margin" style="background-color: #F15A24">
         <img src="imgs/home_icon_khoanhkhac.png" alt="">
         <span class="uk-text-middle uk-margin-small-left">khoảnh khắc</span>
     </div>
-    <div class="uk-margin-large-bottom">
-
+    <div class="uk-margin-large-bottom uk-grid-medium uk-child-width-1-3@m" uk-grid>
+        <div class="uk-width-1-1">
+            <div class="uk-grid-medium" uk-grid>
+                <div class="uk-width-expand@m">
+                    <div class="uk-cover-container">
+                        <img src="imgs/sleep-inside.jpg" alt="" uk-cover>
+                        <canvas width="604" height="361"></canvas>
+                        <a class="uk-position-center" href="#"><img src="imgs/btn-play-yt.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m uk-flex-first@m">
+                    <h2 class="home_title1"><a href="#">Não bộ của chó và người có điểm gì tương đồng</a></h2>
+                    <p class="home_desc1">Bruce Linton, chief executive of the Ontario-based company, Canopy Growth Corporation, said Ms. Stewart would have an advisory role</p>
+                </div>
+            </div>
+        </div>
+        <?php
+        $cars = array
+        (
+            'imgs/khoanhkhac1.jpg',
+            'imgs/khoanhkhac2.jpg',
+            'imgs/khoanhkhac3.jpg',
+        );
+        foreach ($cars as $k => $v) { ?>
+            <div>
+                <div class="uk-cover-container">
+                    <img src="<?= $v ?>" alt="" uk-cover>
+                    <canvas width="287" height="226"></canvas>
+                </div>
+                <h3 class="title_list1 uk-margin-small"><a href="#">Bí mật từ ánh nhìn của con vật nuôi của bạn</a></h3>
+            </div>
+        <?php } ?>
     </div>
     <div class="uk-text-center">
         <a href="#" class="uk-button uk-button-default btn_readmore">xem thêm</a>
