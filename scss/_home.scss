@@ -43,6 +43,9 @@
 .title1{
   font-size: 18px;
   font-family:'FuturaStd-Heavy';
+  &.c1{
+    font-size: 15px;
+  }
   a{
     color: #ffffff;
   }
@@ -116,7 +119,8 @@
   background-color: #F2F3F4;
 }
 .home_title1{
-  font-family:'tt0142m_';
+  //font-family:'tt0142m_';
+  font-family:'FuturaStd-Medium';
   font-size: 30px;
   a{
     color: #000;
