@@ -3,10 +3,21 @@
 <div class="uk-container uk-margin-large-bottom">
     <div class="uk-grid-collapse" uk-grid>
         <div class="uk-width-expand@s">
-
+            <div class="uk-cover-container">
+                <img src="imgs/maxresdefault.jpg" alt="" uk-cover>
+                <canvas width="642" height="508"></canvas>
+                <a href="#" class="uk-position-center"><img src="imgs/btn-play-yt.png" alt=""></a>
+            </div>
         </div>
         <div class="uk-width-1-3@s">
+            <div class="uk-card card1 uk-overlay uk-padding-remove uk-overlay-primary uk-height-1-1">
+                <div class="uk-card-body">
+                    <h4 class="uk-text-uppercase uk-margin-small">televition</h4>
+                </div>
+                <div class="uk-card-footer">
 
+                </div>
+            </div>
         </div>
     </div>
     <div class="uk-grid-medium uk-margin-medium-bottom uk-child-width-1-4@m" uk-grid>
@@ -121,7 +132,7 @@
                     <img src="<?= $v ?>" alt="" uk-cover>
                     <canvas width="291" height="177"></canvas>
                 </div>
-                <h3 class="title_list1 uk-margin-small"><a href="#">British savers are pulling</a></h3>
+                <h3 class="title_list1 c1 uk-margin-small"><a href="#">British savers are pulling</a></h3>
             </div>
         <?php } ?>
     </div>
@@ -148,7 +159,7 @@
                     <img src="<?= $v ?>" alt="" uk-cover>
                     <canvas width="291" height="177"></canvas>
                 </div>
-                <h3 class="title_list1 uk-margin-small"><a href="#">British savers are pulling</a></h3>
+                <h3 class="title_list1 c1 uk-margin-small"><a href="#">British savers are pulling</a></h3>
             </div>
         <?php } ?>
     </div>

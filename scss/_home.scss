@@ -18,6 +18,22 @@
     }
   }
 }
+.card1{
+  background-color: #221e1f;
+  color: #ffffff;
+  .uk-card-body{
+    padding: 20px 10px 20px 25px;
+    h4{
+      color: #fdee20;
+      font-size: 15px;
+      //font-family:'FuturaStd-Book';
+      font-family:'FuturaStd-Light';
+    }
+  }
+  .uk-card-footer{
+
+  }
+}
 .item2{
   padding-bottom: 15px;
   &:nth-child(n+2){
@@ -42,7 +58,7 @@
 }
 .title1{
   font-size: 18px;
-  font-family:'FuturaStd-Heavy';
+  font-family:'FuturaStd-Medium';
   &.c1{
     font-size: 15px;
   }
@@ -137,8 +153,11 @@
   }
 }
 .title_list1{
-  font-family:'tt0142m_';
+  font-family:'FuturaStd-Heavy';
   font-size: 20px;
+  &.c1{
+    font-family:'FuturaStd-Medium';
+  }
   a{
     color: #000;
   }
