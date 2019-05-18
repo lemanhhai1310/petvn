@@ -18,6 +18,32 @@
     }
   }
 }
+.box4{
+  span{
+    color: #fcde20;
+    font-size: 30px;
+    padding-right: 10px;
+  }
+  .uk-subnav{
+    border-bottom: 2px solid #fcde20;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top: -5px !important;
+    li{
+      &.uk-active{
+        a{
+          color: #fcde20;
+        }
+      }
+      a{
+        font-family:'FuturaStd-Book';
+        text-transform: inherit;
+        font-size: 16px;
+        color: #7f7f7f;
+      }
+    }
+  }
+}
 .card1{
   background-color: #221e1f;
   color: #ffffff;
@@ -26,12 +52,52 @@
     h4{
       color: #fdee20;
       font-size: 15px;
-      //font-family:'FuturaStd-Book';
       font-family:'FuturaStd-Light';
+      text-decoration: underline;
+    }
+    h3{
+      font-family:'FuturaStd-Medium';
+      font-size: 22px;
+    }
+    .time3{
+      font-family:'FuturaStd-Light';
+      font-size: 13px;
+      color: #7f7f7f;
+      border-top: 1px solid #7f7f7f;
+      border-bottom: 1px solid #7f7f7f;
+      padding: 3px 0;
+    }
+    .desc{
+      font-family:'FuturaStd-Book';
+      color: #bbbdbf;
+    }
+    .author{
+      font-family:'FuturaStd-LightOblique';
+      color: #e0dcd4;
+    }
+    .uk-input{
+      background-color: #7f7f7f;
+      border: none;
+      color: #e0dcd4;
+      font-size: 13px;
+      font-family:'FuturaStd-Book';
+      &::placeholder{
+        color: #e0dcd4;
+      }
+    }
+    .uk-button{
+      background-color: #2e3192;
+      color: #ffffff;
+      border: none;
+      text-transform: inherit;
+      font-family:'FuturaStd-Book';
+      padding: 0 10px;
+      line-height: 30px;
     }
   }
   .uk-card-footer{
-
+    border-top: 1px solid #7f7f7f;
+    padding: 15px 10px 20px 25px;
   }
 }
 .item2{
